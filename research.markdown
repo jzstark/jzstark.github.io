@@ -6,6 +6,8 @@ permalink: /research/
 
 # Publications
 
+- J. Zhao. "Optimisation of a Modern Numerical Library: a Bottom-Up Approach". PhD Thesis. 2020.
+
 - J. Zhao. "Executing Owl Computation on GPU and TPU." OCaml 2019. [[talk](https://icfp19.sigplan.org/details/ocaml-2019-papers/2/Executing-Owl-Computation-on-GPU-and-TPU)] 
 
 - J. Zhao, T. Tiplea, R. Mortier, J. Crowcroft, and L. Wang. "Data Analytics Service Composition and Deployment on Edge Devices." Big-DAMA workshop, SIGCOMM'18 [[paper](https://conferences.sigcomm.org/sigcomm/2018/workshop-bigdama.html)]

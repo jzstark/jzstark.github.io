@@ -10,8 +10,6 @@ permalink: /research/
 
 - Liang Wang and Jianxin Zhao. *Architecture of Advanced Numerical Analysis Systems - Designing a Scientific Computing System using OCaml*. First edition, Apress Berkeley, CA, 2022 Dec. Softcover ISBN: 978-1-4842-8852-8. Licensed under CC BY. ([link](https://link.springer.com/book/10.1007/978-1-4842-8853-5))
 
-- 刘驰（主编）；韩锐、赵健鑫、马建（副主编），《物联网技术概论》第三版，机械工业出版社，2021年11月。
-
 # Journals
 
 - Jianxin Zhao, Rui Han, Yongkai Yang*, Benjamin Catterall, Chi Harold Liu, Lydia Y. Chen, Richard Mortier, Jon Crowcroft, and Liang Wang, "Federated Learning with Heterogeneity-Aware Probabilistic Synchronous Parallel on Edge," IEEE Transactions on Services Computing，2021. DOI: 10.1109/TSC.2021.3109910.
@@ -22,7 +20,7 @@ permalink: /research/
 
 - Jianxin Zhao, Yanhao Feng, Xinyu Chang, Peng Xu, Shilin Li, Chi Harold Liu, Wenke Yu, Jian Tang, and Jon Crowcroft, “Energy-Efficient and Fair IoT Data Distribution in Decentralised Federated Learning, ” IEEE Transactions on Network Science and Engineering, 2022. DOI: 10.1109/TNSE.2022.3185672
 
-- Jianxin Zhao*（赵健鑫）, Yanhao Feng, Xinyu Chang, and Chi Harold Liu, "Energy-efficient client selection in federated learning with heterogeneous data on edge," Peer-to-Peer Networking and Applications，2022. DOI: 10.1007/ s12083-021-01254-8.
+- Jianxin Zhao*, Yanhao Feng, Xinyu Chang, and Chi Harold Liu, "Energy-efficient client selection in federated learning with heterogeneous data on edge," Peer-to-Peer Networking and Applications，2022. DOI: 10.1007/ s12083-021-01254-8.
 
 - Gao, H., Liu, C.H., Wang, W., Zhao, J., Song, Z., Su, X., Crowcroft, J. and Leung, K.K., 2015. A survey of incentive mechanisms for participatory sensing. IEEE Communications Surveys & Tutorials, 17(2), pp.918-943. [[paper](https://ieeexplore.ieee.org/abstract/document/7001562/)]
 

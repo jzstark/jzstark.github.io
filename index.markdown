@@ -16,7 +16,7 @@ I have been actively participating in the development of [Owl](https://ocaml.xyz
 I am always glad to face new challenges. I have been practising Kendo in the [University of Cambridge Kendo Society](http://kendo.soc.srcf.net/) for three years. 
 I have also participated in the [STIMULUS programme](https://stimulus.maths.org/) as volunteer to assist teaching computer science to pupils in local schools.
 
-Test for Code format:
+Test for Code format and math notation:
 
 ```ocaml
 # let f opt = match opt with
@@ -26,6 +26,8 @@ Test for Code format:
 val f : 'a option option-> 'a option = <fun>
 ```
 
+When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$.
 
 ```c
 #include <stdio.h>

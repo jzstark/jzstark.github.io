@@ -10,6 +10,8 @@ permalink: /research/
 
 - Liang Wang and Jianxin Zhao. *Architecture of Advanced Numerical Analysis Systems - Designing a Scientific Computing System using OCaml*. First edition, Apress Berkeley, CA, 2022 Dec. Softcover ISBN: 978-1-4842-8852-8. Licensed under CC BY. ([link](https://link.springer.com/book/10.1007/978-1-4842-8853-5))
 
+- Liang Wang, Jianxin Zhao. *Strategic Blueprint for Enterprise Analytics: Integrating Advanced Analytics into Data-Driven Business*. First edition, Springer Cham, 2024 April. ([link](https://link.springer.com/book/10.1007/978-3-031-55885-6)).
+
 # Journals
 
 - Jianxin Zhao, Rui Han, Yongkai Yang*, Benjamin Catterall, Chi Harold Liu, Lydia Y. Chen, Richard Mortier, Jon Crowcroft, and Liang Wang, "Federated Learning with Heterogeneity-Aware Probabilistic Synchronous Parallel on Edge," IEEE Transactions on Services Computing，2021. DOI: 10.1109/TSC.2021.3109910.

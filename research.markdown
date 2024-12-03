@@ -30,9 +30,14 @@ permalink: /research/
 
 # Conferences
 
-- J. Zhao, T. Tiplea, R. Mortier, J. Crowcroft, and L. Wang. "Data Analytics Service Composition and Deployment on Edge Devices." Big-DAMA workshop, SIGCOMM'18 [[paper](https://conferences.sigcomm.org/sigcomm/2018/workshop-bigdama.html)]
+- J. Zhao, M-B. Lin, A. Vinel. "V2X-Based Decentralized Singular Value Decomposition in Dynamic Vehicular Environment." 1st Workshop on Cooperative Intelligence for Embodied AI, ECCV 2024. [[link](https://coop-intelligence.github.io/)]
+
+- Wang Y, Wu J, Hua X, Liu CH, Li G, Zhao J, Yuan Y, Wang G. "Air-ground spatial crowdsourcing with uav carriers by geometric graph convolutional multi-agent deep reinforcement learning." 2023 IEEE 39th International Conference on Data Engineering (ICDE) 2023 Apr 3 (pp. 1790-1802). IEEE. [[paper](https://ieeexplore.ieee.org/abstract/document/10184614)]
 
 - J. Zhao. "Executing Owl Computation on GPU and TPU." OCaml 2019. [[talk](https://icfp19.sigplan.org/details/ocaml-2019-papers/2/Executing-Owl-Computation-on-GPU-and-TPU)] 
+
+- J. Zhao, T. Tiplea, R. Mortier, J. Crowcroft, and L. Wang. "Data Analytics Service Composition and Deployment on Edge Devices." Big-DAMA workshop, SIGCOMM'18 [[paper](https://conferences.sigcomm.org/sigcomm/2018/workshop-bigdama.html)]
+
 
 - J. Zhao, R. Mortier, J. Crowcroft, and L. Wang. "Privacy-preserving Machine Learning Based Personal Data Analytics System." AAAI/ACM conference on Artificial Intelligence, Ethics, and Society (AIES'18) [[paper](http://www.aies-conference.com/2018/accepted-papers/)]
 
@@ -41,6 +46,29 @@ permalink: /research/
 - J. Zhao. "Towards Security in Distributed Home System." EuroSys'17 Doctoral Workshop [[paper](https://eurodw17.kaust.edu.sa/abstracts/eurodw17-final9.pdf)] [[slides](https://eurodw17.kaust.edu.sa/slides/eurodw17-slides9.pdf)]
 
 - Richard Moriter et. al. "Personal Data Management with the Databox: What’s Inside the Box?" CAN'16 [[paper](http://dl.acm.org/citation.cfm?doid=3010079.3010082)]
+
+
+# Teaching
+
+- 2024.4-8: *Collective Perception in Autonomous Driving*, Master level course. Teaching basic fundamental ML knowledge for autonomous driving, including ML, DL, object detection, Bayesian Inference, etc. 
+
+# Supervision 
+
+- 2024 @ KIT: one master student on the topic of Pedestrian Intention Prediction
+
+- 2021-2023 @ BIT : two master students on the topic of federated learning, and one master student on the topic of optimization of deep learning model compilation. 
+
+- 2016 @ Cambridge: Computer Networking, undergraduate students
+
+# Patents 
+
+- *A Large-Scale Edge Machine Learning Training Method Based on Probabilistic Sampling*. 
+Jianxin Zhao, Rui Han, Chi Liu. CN Patent No. ZL202110285186.X; Nov.8, 2022, China National Intellectual Property Administration. 
+
+- *A client selection method for edge-side federated learning under heterogeneous data*.
+Jianxin Zhao, Chi Liu, Yanhao Feng, Xinyu Chang. CN Patent No. ZL20211498897.1; May.31, 2024, China National Intellectual Property Administration.
+
+
 
 # Other
 

@@ -26,7 +26,7 @@ permalink: /research/
 
 - Introduction to Internet of Thing Technologies. Chi Harold Liu (Editor-in-Chief), Rui Han, Jianxin Zhao, and Jian Ma (Associate Editor-in-Chief), 3rd edition, China Machine Press, 2021.Nov. 
 
-# Project
+# Open Source Project
 
 - Owl - OCaml Scientific and Engineering Computing [[GitHub](https://github.com/owlbarn/owl)]
 

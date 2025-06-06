@@ -6,6 +6,8 @@ permalink: /research/
 
 # Books 
 
+- Jianxin Zhao, Liang Wang, and Alexey Vinel. *Autonomous Driving: Technical, Business and Regulatory Landscape*. Wiley. Contract Signed; work in progress. To be published in 2026. (Current [ToC](files/toc.pdf))
+
 - Liang Wang, Jianxin Zhao, and Richard Mortier. *OCaml Scientific Computing: Functional Programming in Data Science and Artificial Intelligence*. First edition, Springer International Publishing, 2022 April. Series ISSN: 1863-7310. DOI: 10.1007/978-3-030-97644-6. ([link](https://link.springer.com/book/9783030976446))
 
     This book covers a wide range of topics in scientific computing:
@@ -53,7 +55,9 @@ permalink: /research/
 
 # Conferences
 
-- J. Zhao, M-B. Lin, A. Vinel. "V2X-Based Decentralized Singular Value Decomposition in Dynamic Vehicular Environment." 1st Workshop on Cooperative Intelligence for Embodied AI, ECCV 2024. [[link](https://coop-intelligence.github.io/)]
+- Z. Xia, J. Zhao, A. Vinel. "Dynamic-PBFT: Enhanced Consensus in Decentralized Federated Averaging for V2V Networks."  2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall). [Link](files/vtc25.pdf)
+  
+- J. Zhao, M-B. Lin, A. Vinel. "V2X-Based Decentralized Singular Value Decomposition in Dynamic Vehicular Environment." 1st Workshop on Cooperative Intelligence for Embodied AI, ECCV 2024. [[link](https://link.springer.com/chapter/10.1007/978-3-031-91813-1_9)]
 
 - Wang Y, Wu J, Hua X, Liu CH, Li G, Zhao J, Yuan Y, Wang G. "Air-ground spatial crowdsourcing with uav carriers by geometric graph convolutional multi-agent deep reinforcement learning." 2023 IEEE 39th International Conference on Data Engineering (ICDE) 2023 Apr 3 (pp. 1790-1802). IEEE. [[paper](https://ieeexplore.ieee.org/abstract/document/10184614)]
 

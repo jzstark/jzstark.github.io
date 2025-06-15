@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Course
-permalink: /course/
+title: Courses
+permalink: /courses/
 ---
 
 # Courses Taken

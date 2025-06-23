@@ -21,7 +21,7 @@
 title: Jianxin's Homepage
 email: jianxin.zhao@cl.cam.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  updated on 2025.06.15
+  updated on 2025.06.24
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jianxin.ocaml.xyz/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 

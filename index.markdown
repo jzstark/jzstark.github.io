@@ -8,12 +8,14 @@ layout: default
 
 <img src="/images/stark.jpg" style="float:right;width:200px;margin-left:20px">
 
-I am a Post-doc working at the Cooperative Autonomous Systems Groups of Karlsruhe Institute of Technology. I acquired my PhD at the [Computer Laboratory](https://www.cl.cam.ac.uk/), University of Cambridge (affiliated with Corpus Christi College), supervised by [Professor Jon Crowcroft](https://www.cl.cam.ac.uk/~jac22/).
+I am a Post-doc working at the [Cooperative Autonomous Systems Group](https://cas.aifb.kit.edu/) of Karlsruhe Institute of Technology. I acquired my PhD at the [Computer Laboratory](https://www.cl.cam.ac.uk/), University of Cambridge (affiliated with Corpus Christi College), supervised by [Professor Jon Crowcroft](https://www.cl.cam.ac.uk/~jac22/).
 
-I am interested in using scientific computation methods in real-world applications, e.g. autonomous driving, for performance optimization. Such methods vary from basic integration / linear algebra / statistics to advanced numerical methods such as algorithmic differentiation, optimization, regression, deep learning, etc. I'm interested in how application performance can be improved on various levels: from cache and tile optimization on CPU/GPU hardware to computation graph management and then to the collaboration among swarm of edge computation devices.  It is always exciting to see how theoretical research can be utilized to achive signficant optimization and impact in real-world industries. 
-I have been actively participating in the development of [Owl](https://ocaml.xyz/), a scientific computing library that is widely used as the de-facto numerical library in the [OCaml](https://ocaml.org) community, as a main developer and now as project leader. 
+My passion lies in the application of AI/ML and mathematical/numerical computing in real-world systems, with a strong focus on making them run faster and more efficiently from both the software and hardware perspectives. 
 
-I'm an author of three books published by Springer, two about the Owl system and one about enterprise architecture and analytics.
+I have been actively participating in the [Owl](https://ocaml.xyz/) project, first as a main developer and now as project leader. Owl is a scientific computing and deep learning library that is widely used in the [OCaml](https://ocaml.org) community, just like NumPy/SciPy in the Python world.  I've designed and optimized this system on various levels. 
 
-I am always glad to face new challenges. I have been practising Kendo in the [University of Cambridge Kendo Society](http://kendo.soc.srcf.net/) for three years. 
+I'm an author of three books published by Springer, two about the Owl system and one about enterprise architecture and analytics. Currently I'm writing another book (to be published by Wiley) that aims to give a holistic view  on the autonomous driving industry, from the perspectives of technology, business, and regulations.
+
+I am always glad to face new challenges. I have been practising [Kendo](https://de.wikipedia.org/wiki/Kend%C5%8D) for years. 
 I have also participated in the [STIMULUS programme](https://stimulus.maths.org/) as volunteer to assist teaching computer science to pupils in local schools.
+A recent personal achievement is finishing the full [Lake Constance](https://en.wikipedia.org/wiki/Lake_Constance) cycle route.

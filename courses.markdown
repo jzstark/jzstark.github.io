@@ -6,6 +6,8 @@ permalink: /courses/
 
 # Courses Taken
 
+- [Stanford CS336 - Language Modeling from Scratch](https://online.stanford.edu/courses/cs336-language-modeling-scratch)
+
 - [Berkeley CS188 - Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188/su25/)   [[Projects Code](https://github.com/jzstark/CS188)]
 
 - [CIS 565 GPU Programming and Architecture](https://cis565-fall-2022.github.io/) [[Projects Code](https://github.com/jzstark/CIS565-GPU)]

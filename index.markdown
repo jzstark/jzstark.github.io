@@ -12,7 +12,7 @@ I am a Post-doc working at the [Cooperative Autonomous Systems Group](https://ca
 
 My passion lies in the application of AI/ML and mathematical/numerical computing in real-world systems, with a strong focus on making them run faster and more efficiently from both the software and hardware perspectives. 
 
-I have been actively participating in the [Owl](https://ocaml.xyz/) project, first as a main developer and now as project leader. Owl is a scientific computing and deep learning library that is widely used in the [OCaml](https://ocaml.org) community, just like NumPy/SciPy in the Python world.  I've designed and optimized this system on various levels. 
+I have been actively participating in the [Owl](https://ocaml.xyz/) project, first as a main developer and now as project leader. Owl is a scientific computing and deep learning library that is widely used in the [OCaml](https://ocaml.org) community, just like NumPy/SciPy in the Python world.  I've designed and optimized this system on various levels. Owl joins the ranks of [the most representative systems](https://www.cl.cam.ac.uk/research/srg/) developed in the CS department of Cambridge University, together with systems such as Xen Hypervisor and EDSAC. 
 
 I'm an author of three books published by Springer, two about the Owl system and one about enterprise architecture and analytics. Currently I'm writing another book (to be published by Wiley) that aims to give a holistic view  on the autonomous driving industry, from the perspectives of technology, business, and regulations.
 

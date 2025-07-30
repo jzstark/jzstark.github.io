@@ -99,6 +99,8 @@ permalink: /research/
 
 # Patents 
 
+- *A Game-Theoretic Distributed Learning Method for Crowd-sourced Image Recognition on Mobile Devices*. Jianxin Zhao, et.al. CN Patent No. ZL2022109450145; 30 July, 2025. China National Intellectual Property Administration.
+
 - *A Large-Scale Edge Machine Learning Training Method Based on Probabilistic Sampling*. 
 Jianxin Zhao, Rui Han, Chi Liu. CN Patent No. ZL202110285186.X; Nov.8, 2022, China National Intellectual Property Administration. 
 
@@ -106,14 +108,14 @@ Jianxin Zhao, Rui Han, Chi Liu. CN Patent No. ZL202110285186.X; Nov.8, 2022, Chi
 Jianxin Zhao, Chi Liu, Yanhao Feng, Xinyu Chang. CN Patent No. ZL20211498897.1; May.31, 2024, China National Intellectual Property Administration.
 
 
+
 # Teaching
 
-- 2024/2025.4-8: *Collective Perception in Autonomous Driving*, Master level course. Teaching basic fundamental ML knowledge for autonomous driving, including ML, DL, object detection, Bayesian Inference, etc. 
+- 2024/2025.4-8: [Collective Perception in Autonomous Driving](https://cas.aifb.kit.edu/28_450.php), Master level course. Teaching basic fundamental ML knowledge for autonomous driving, including ML, DL, object detection, Bayesian Inference, etc. 
 
-- 2024.10-2025.2: *Artificial Intelligence for Autonomous Driving*，Master level Seminar. 
+- 2024.10-2025.2: [Artificial Intelligence for Autonomous Driving (Master)](https://cas.aifb.kit.edu/389_445.php)，Master level Seminar. 
 
 - 2016-2017. Teaching Assistant at the Milton Road Primary School, Cambridge. The STIMULUS Program is a community service program which gives Cambridge University students the opportunity to work with pupils in local schools, helping with Maths, Science, Computing or Technology lessons.
-
 
 # Supervision 
 

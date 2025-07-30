@@ -14,7 +14,8 @@ My passion lies in the application of AI/ML and mathematical/numerical computing
 
 I have been actively participating in the [Owl](https://ocaml.xyz/) project, first as a main developer and now as project leader. Owl is a scientific computing and deep learning library that is widely used in the [OCaml](https://ocaml.org) community, just like NumPy/SciPy in the Python world.  I've designed and optimized this system on various levels. Owl joins the ranks of [the most representative systems](https://www.cl.cam.ac.uk/research/srg/) developed in the CS department of Cambridge University, together with systems such as Xen Hypervisor and EDSAC. 
 
-I'm an author of three books published by Springer, two about the Owl system and one about enterprise architecture and analytics. Currently I'm writing another book (to be published by Wiley) that aims to give a holistic view  on the autonomous driving industry, from the perspectives of technology, business, and regulations.
+I have more than 20 publications, including three books published by Springer. Two of them are about the Owl system and one about enterprise architecture and analytics. Currently I'm writing another book (to be published by Wiley) that aims to give a holistic view on the autonomous driving industry, from the perspectives of technology, business, and regulations.
+I've also converted my academic work to 3 patents as first inventor.
 
 I am always glad to face new challenges. I have been practising [Kendo](https://de.wikipedia.org/wiki/Kend%C5%8D) for years. 
 I have also participated in the [STIMULUS programme](https://stimulus.maths.org/) as volunteer to assist teaching computer science to pupils in local schools.

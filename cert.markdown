@@ -12,3 +12,7 @@ permalink: /cert/
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="759a7c03-093f-4578-80ef-4f2cd665e7a1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
+
+## Other Certificates
+
+* Awarded Gold medal for invention presentation "System and method for Air-Ground Collaborative Vehicular Crowdsensing in Smart City". International Exhibition of Inventions Nuremberg (iENA). Nov 3, 2025.

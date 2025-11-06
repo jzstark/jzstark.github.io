@@ -37,6 +37,8 @@ permalink: /research/
 
 # Journals
 
+- Lei Wan, Jianxin Zhao, Andreas Wiedholz, Manuel Bied, Mateus Martinez de Lucena, Abhishek Dinkar Jagtap, Andreas Festag, Antônio Augusto Fröhlich, Hannan Ejaz Keen, and Alexey Vinel, "Systematic Literature Review on Vehicular Collaborative Perception - A Computer Vision Perspective", IEEE Transactions on Intelligent Transporation Systems (IEEE T-ITS). [[Preprint](https://arxiv.org/abs/2504.04631)]
+
 - Jianxin Zhao, Pierre Vandenhove, Peng Xu, Hao Tao, Liang Wang, Chi Harold Liu, and Jon Crowcroft, "Parallel and Memory-Efficient Distributed Edge Learning in B5G IoT Networks"，IEEE Journal of Selected Topics in Signal Processing 17, no. 1 (2022): 222-233. [[paper](https://ieeexplore.ieee.org/abstract/document/9956889/)]
 
 - Jianxin Zhao, Xinyu Chang, Yanhao Feng, Chi Harold Liu, and Ningbo Liu*, “Participant Selection for Federated Learning with Heterogeneous Data in Intelligent Transport System,” IEEE transactions on intelligent transportation systems 24, no. 1 (2022): 1106-1115. [[paper](https://ieeexplore.ieee.org/abstract/document/9714733/)]

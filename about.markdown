@@ -19,7 +19,6 @@ intro: I am a researcher and engineer interested in how AI systems work, how to 
 <p>I was a member of the team awarded an iENA Nuremberg gold medal in 2025 for an air-ground collaborative vehicular crowdsensing system. My <a href="{{ '/cert/' | relative_url }}">professional credentials</a> include AWS Solutions Architect – Professional and NVIDIA's Generative AI LLMs certification.</p>
 <h2>Beyond work</h2>
 <p>I practise kendo and enjoy cycling. Completing the full Lake Constance cycling route is one of my favourite trips. My <a href="{{ '/learning/' | relative_url }}">learning notes</a> include course projects in language modelling, AI, graphics and GPU programming.</p>
-<h2>Contact &amp; CV</h2>
+<h2>Contact</h2>
 <p>For research, engineering and open-source collaboration: <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
-<div class="links"><a class="button" href="{{ '/files/cv.pdf' | relative_url }}">English CV (PDF)</a><a href="{{ '/files/cv-full.pdf' | relative_url }}">With research appendix</a><a href="{{ '/files/cv-zh.pdf' | relative_url }}" lang="zh">中文简历</a><a href="{{ '/files/cv-zh-full.pdf' | relative_url }}" lang="zh">中文简历（含附录）</a></div>
 </div>

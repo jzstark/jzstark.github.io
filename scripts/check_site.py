@@ -11,12 +11,18 @@ class Page(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.links, self.ids, self.errors = [], set(), []
         self.h1 = 0
+        self.in_main_nav = False
+        self.main_links = []
         self.description = False
         self.canonical = False
         self.feed(html)
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == 'nav':
+            self.in_main_nav = attrs.get('aria-label') == 'Main navigation'
+        if tag == 'a' and self.in_main_nav:
+            self.main_links.append(attrs.get('href'))
         if attrs.get('id'):
             self.ids.add(attrs['id'])
         if tag == 'h1':
@@ -31,6 +37,10 @@ class Page(HTMLParser):
         if key and attrs.get(key):
             self.links.append(attrs[key])
 
+    def handle_endtag(self, tag):
+        if tag == 'nav':
+            self.in_main_nav = False
+
 
 def check(root):
     pages = {p: Page(p.read_text()) for p in root.rglob('*.html')}
@@ -40,6 +50,8 @@ def check(root):
         name = path.relative_to(root).as_posix()
         url = '/' + name.removesuffix('index.html')
         issues = list(page.errors)
+        if '/activity/' not in page.main_links:
+            issues.append('Codex Activity missing from main navigation')
         if page.h1 != 1:
             issues.append(f'expected one h1, found {page.h1}')
         if not page.description or not page.canonical:

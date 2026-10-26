@@ -22,6 +22,8 @@ navigation:
     url: /books/
   - title: About
     url: /about/
+  - title: Codex Activity
+    url: /activity/
 exclude:
   - scripts/
   - tests/

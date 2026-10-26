@@ -4,7 +4,7 @@ title: Codex Activity
 permalink: /activity/
 description: My daily Codex token activity, automatically updated from official account usage data.
 ---
-<link rel="stylesheet" href="{{ '/assets/activity.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/activity.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
 <section class="activity" data-usage-url="{{ '/assets/data/codex-usage.json' | relative_url }}" aria-label="Codex usage">
   <p class="activity-intro">A daily record of working with Codex. Each square represents one day;

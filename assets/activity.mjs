@@ -157,7 +157,7 @@ async function boot() {
     render(validateDataset(await response.json()));
   } catch {
     const status = document.getElementById('activity-status');
-    status.textContent = 'Usage data could not be loaded. Please try again later, or open the daily data link below.';
+    status.textContent = 'Usage data could not be loaded. Please try again later.';
     status.dataset.state = 'error';
   } finally {
     clearTimeout(timeout);

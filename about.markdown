@@ -15,7 +15,7 @@ intro: I am a researcher and engineer interested in how AI systems work, how to 
 <p>At KIT, I contributed to two Master's-level courses: <em>Collective Perception in Autonomous Driving</em> and <em>AI for Autonomous Driving</em>. I have co-supervised seven Master's theses across Cambridge, BIT and KIT, on computing optimisation, federated learning and autonomous-driving topics.</p>
 <p>At Cambridge, I supervised undergraduate computer networking and volunteered through the STIMULUS programme, helping teach computing to local school pupils.</p>
 <h2>Patents &amp; recognition</h2>
-<p>I am the first inventor on four Chinese invention patents covering probabilistic edge training, federated client selection and distributed image recognition. Six software copyright registrations arose from the distributed and federated learning work.</p>
+<p>I am the first inventor on <a href="{{ '/research/#patents' | relative_url }}">four Chinese invention patents</a> covering probabilistic edge training, federated client selection and distributed image recognition. Six software copyright registrations arose from the distributed and federated learning work.</p>
 <p>I was a member of the team awarded an iENA Nuremberg gold medal in 2025 for an air-ground collaborative vehicular crowdsensing system. My <a href="{{ '/cert/' | relative_url }}">professional credentials</a> include AWS Solutions Architect – Professional and NVIDIA's Generative AI LLMs certification.</p>
 <h2>Beyond work</h2>
 <p>I practise kendo and enjoy cycling. Completing the full Lake Constance cycling route is one of my favourite trips. My <a href="{{ '/learning/' | relative_url }}">learning notes</a> include course projects in language modelling, AI, graphics and GPU programming.</p>

@@ -1,0 +1,82 @@
+- id: deepinfer
+  title: Inside DeepInfer
+  subtitle: How an LLM Inference Engine Works
+  authors: Jianxin Zhao
+  publisher: Leanpub
+  year: 2026
+  type: Independent publication
+  cover: /assets/books/deepinfer.jpg
+  description: 'A guide to inference-engine behaviour through source walkthroughs and 28 CPU-based educational experiments:
+    scheduling, state ownership, expert parallelism, speculative decoding and correctness.'
+  note: The book describes its AI-assisted production process, the author’s editorial responsibility and the limits
+    of its teaching experiments. These experiments are not performance measurements of the full engine.
+  links:
+  - label: Read online
+    url: https://jianxin.ocaml.xyz/inside-deepinfer-site/
+  - label: Leanpub
+    url: https://leanpub.com/inside-deepinfer-how-an-llm-inference-engine-works
+  - label: Experiments
+    url: https://github.com/jzstark/inside-deepinfer-code
+  - label: Authorship & edition
+    url: https://jianxin.ocaml.xyz/inside-deepinfer-site/notice.html
+- id: driving
+  title: Autonomous Driving
+  subtitle: Technology, Business, and Regulation
+  authors: Jianxin Zhao, Liang Wang, Alexey Vinel
+  publisher: Wiley
+  year: 2026
+  type: First author
+  cover: /assets/books/driving.jpg
+  description: A view of autonomous driving across algorithms, computing platforms, data, connectivity, business
+    and regulation. I wrote the main chapters; the foreword is by BMW expert Johann Prenninger.
+  links:
+  - label: Publisher
+    url: https://www.wiley.com/en-br/autonomous-driving-technology-business-and-regulation-p-9781394340798
+- id: analytics
+  title: Strategic Blueprint for Enterprise Analytics
+  subtitle: Integrating Advanced Analytics into Data-Driven Business
+  authors: Liang Wang, Jianxin Zhao
+  publisher: Springer
+  year: 2024
+  type: Co-author
+  cover: /assets/books/analytics.jpg
+  description: The organisational, architectural and technical decisions involved in building enterprise analytics
+    capabilities.
+  links:
+  - label: Publisher
+    url: https://doi.org/10.1007/978-3-031-55885-6
+- id: architecture
+  title: Architecture of Advanced Numerical Analysis Systems
+  subtitle: Designing a Scientific Computing System Using OCaml
+  authors: Liang Wang, Jianxin Zhao
+  publisher: Apress
+  year: 2022
+  type: Co-author · Open access
+  cover: /assets/books/architecture.jpg
+  description: 'The design and implementation of a numerical computing library, drawing on our experience developing
+    Owl: arrays, numerical operations, differentiation, computation graphs and deployment.'
+  links:
+  - label: Read / publisher
+    url: https://doi.org/10.1007/978-1-4842-8853-5
+- id: scientific
+  title: OCaml Scientific Computing
+  subtitle: Functional Programming in Data Science and Artificial Intelligence
+  authors: Liang Wang, Jianxin Zhao, Richard Mortier
+  publisher: Springer
+  year: 2022
+  type: Co-author
+  cover: /assets/books/scientific.jpg
+  description: Scientific computing with Owl, from statistics and linear algebra to automatic differentiation, optimisation,
+    neural networks and computer-vision examples.
+  links:
+  - label: Publisher
+    url: https://doi.org/10.1007/978-3-030-97645-3
+- id: iot
+  title: 物联网技术概论
+  subtitle: 第三版 · Introduction to Internet of Things Technology
+  authors: 刘驰（主编）；韩锐、赵健鑫、马建（副主编）
+  publisher: 机械工业出版社 / China Machine Press
+  year: 2021
+  type: Associate editor
+  description: A Chinese-language textbook on Internet of Things technology, used in software and computing education.
+  links: []

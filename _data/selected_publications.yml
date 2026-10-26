@@ -1,0 +1,13 @@
+- title: Parallel and Memory-Efficient Distributed Edge Learning in B5G IoT Networks
+  venue: IEEE JSTSP · 2023 · First author
+  summary: Parallel execution and memory efficiency for learning under edge-device resource constraints.
+  url: https://ieeexplore.ieee.org/abstract/document/9956889/
+- title: Federated Learning With Heterogeneity-Aware Probabilistic Synchronous Parallel on Edge
+  venue: IEEE TSC · 2022 · First author
+  summary: A probabilistic synchronisation approach for heterogeneous edge learning.
+  url: https://ieeexplore.ieee.org/abstract/document/9529051/
+- title: Exploring Both Individuality and Cooperation for Air-Ground Spatial Crowdsourcing by Multi-Agent Deep Reinforcement
+    Learning
+  venue: ICDE · 2023 · Corresponding author
+  summary: Coordinating individual policies and collective behaviour in air-ground sensing tasks.
+  url: https://ieeexplore.ieee.org/abstract/document/10184585/

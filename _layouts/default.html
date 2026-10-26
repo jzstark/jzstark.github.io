@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <meta name="theme-color" content="#f7f6f2">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+  {% feed_meta %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Jianxin Zhao home">Jianxin Zhao<span lang="zh">赵健鑫</span></a>
+      <nav aria-label="Main navigation">
+        {% for item in site.navigation %}<a href="{{ item.url | relative_url }}"{% if page.url contains item.url or page.section == item.title %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}
+        <a class="nav-cv" href="{{ '/files/cv.pdf' | relative_url }}">CV <span aria-hidden="true">↗</span><span class="sr-only"> (English PDF)</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="shell" tabindex="-1">{{ content }}</main>
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div><a class="footer-name" href="{{ '/' | relative_url }}">Jianxin Zhao</a><p>AI systems, research &amp; open source.</p></div>
+      <nav aria-label="More links">
+        <a href="mailto:{{ site.email }}">Email</a>
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/">LinkedIn</a>
+        <a href="{{ '/activity/' | relative_url }}">Codex Activity</a>
+        <a href="{{ '/learning/' | relative_url }}">Learning</a>
+        <a href="{{ '/cert/' | relative_url }}">Credentials</a>
+      </nav>
+      <p class="updated">Profile updated {{ site.content_updated | date: '%B %Y' }}</p>
+    </div>
+  </footer>
+</body>
+</html>

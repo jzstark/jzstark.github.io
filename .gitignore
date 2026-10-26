@@ -3,3 +3,6 @@ vendor/
 .jekyll-cache/
 __pycache__/
 *.pyc
+_site/
+.jekyll-metadata
+.sass-cache/

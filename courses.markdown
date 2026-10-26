@@ -2,25 +2,8 @@
 layout: page
 title: Projects
 permalink: /projects/
+eyebrow: Systems I help build
+intro: From numerical foundations to model inference and agent applications. These projects combine implementation, controlled experiments and feedback from real users.
 ---
-
-# Coding Projects
-
-- [Stanford CS336 - Language Modeling from Scratch](https://online.stanford.edu/courses/cs336-language-modeling-scratch) [[Projects Code](https://github.com/jzstark/CS336_Projects)]
-
-- [Berkeley CS188 - Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188/su25/)   [[Projects Code](https://github.com/jzstark/CS188)]
-
-- [CIS 565 GPU Programming and Architecture](https://cis565-fall-2022.github.io/) [[Projects Code](https://github.com/jzstark/CIS565-GPU)]
-
-- [CMU 15-462/662 Computer Graphics](https://15362.courses.cs.cmu.edu/spring2025/) [[Project Code](https://github.com/jzstark/CMU-DrawSVG)] [[Project Code](https://github.com/jzstark/Scotty3D)]
-
-
-# Courses 
-
-- [The Making of Modern Ukraine](https://www.coursera.org/learn/the-making-of-modern-ukraine) by Timothy Snyder on Coursera
-
-- [Compilers](https://online.stanford.edu/courses/soe-ycscs1-compilers) on Stanford Online
-
-- [Machine Learning](https://www.coursera.org/specializations/machine-learning-introduction) by Andrew Ng on Coursera 
-
-- [Design of Computer Programs](https://www.udacity.com/course/design-of-computer-programs--cs212) by Peter Norvig on Udacity 
+{% for project in site.data.projects %}{% include project-row.html project=project %}{% endfor %}
+<section class="section"><h2>Other work</h2><p>At KIT, I developed a real-time water-level prediction module for a Rhine inland-port monitoring system with <a href="https://covadonga.eu/">Covadonga</a>; the module is in live operation.</p><p>Earlier work includes the Databox personal-data platform, distributed and federated learning, and multi-agent reinforcement learning for crowdsensing. See <a href="{{ '/research/' | relative_url }}">research</a> for the publications.</p><p>Course implementations and independent study are collected separately in my <a href="{{ '/learning/' | relative_url }}">learning notes</a>.</p></section>

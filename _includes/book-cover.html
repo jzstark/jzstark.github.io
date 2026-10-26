@@ -1,0 +1,1 @@
+{% if include.book.cover %}<img class="book-cover" src="{{ include.book.cover | relative_url }}" alt="Cover of {{ include.book.title | escape }}" width="150" height="225" loading="lazy">{% else %}<div class="book-placeholder" aria-hidden="true">{{ include.book.title }}<small>{{ include.book.publisher }} · {{ include.book.year }}</small></div>{% endif %}

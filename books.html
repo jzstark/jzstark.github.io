@@ -1,0 +1,11 @@
+---
+layout: page
+title: Books
+permalink: /books/
+eyebrow: Writing & explanation
+intro: Books on the systems behind AI, scientific computing, autonomous driving and enterprise analytics. Four publisher-issued English books, an independent DeepInfer guide, and a Chinese textbook contribution.
+---
+{% for book in site.data.books %}<article class="book-entry" id="{{ book.id }}">
+<div>{% include book-cover.html book=book %}</div>
+<div><p class="book-type">{{ book.type }} · {{ book.publisher }} · {{ book.year }}</p><h2>{{ book.title }}</h2><p>{{ book.subtitle }}</p><p class="authors">{{ book.authors }}</p><p>{{ book.description }}</p>{% if book.note %}<p class="meta">{{ book.note }}</p>{% endif %}<div class="links">{% for link in book.links %}<a href="{{ link.url }}">{{ link.label }} ↗</a>{% endfor %}</div></div>
+</article>{% endfor %}

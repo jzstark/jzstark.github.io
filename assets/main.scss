@@ -1,0 +1,4 @@
+---
+---
+/* The custom layout uses site.css. Kept for legacy stylesheet URLs. */
+@import url("{{ "/assets/site.css" | relative_url }}");

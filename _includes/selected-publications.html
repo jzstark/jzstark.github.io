@@ -1,0 +1,3 @@
+<ul class="pub-list">{% for paper in site.data.selected_publications %}
+<li class="pub-item"><p class="pub-meta">{{ paper.venue }}</p><h3><a href="{{ paper.url }}">{{ paper.title }}</a></h3><p>{{ paper.summary }}</p></li>
+{% endfor %}</ul>

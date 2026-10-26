@@ -1,22 +1,20 @@
 ---
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-#layout: home
 layout: default
-#title: Home
+title: AI Systems, Agent Engineering & Open Source
 ---
-
-<img src="/images/stark.jpg" style="float:right;width:200px;margin-left:20px">
-
-I am a Post-doc working at the [Cooperative Autonomous Systems Group](https://cas.aifb.kit.edu/) of Karlsruhe Institute of Technology. I acquired my PhD at the [Computer Laboratory](https://www.cl.cam.ac.uk/), University of Cambridge (affiliated with Corpus Christi College), supervised by [Professor Jon Crowcroft](https://www.cl.cam.ac.uk/~jac22/).
-
-My passion lies in the application of AI/ML and mathematical/numerical computing in real-world systems, with a strong focus on making them run faster and more efficiently from both the software and hardware perspectives. 
-
-I have been actively participating in the [Owl](https://ocaml.xyz/) project, first as a main developer and now as project leader. Owl is a scientific computing and deep learning library that is widely used in the [OCaml](https://ocaml.org) community, just like NumPy/SciPy in the Python world.  I've designed and optimized this system on various levels. Owl joins the ranks of [the most representative systems](https://www.cl.cam.ac.uk/research/srg/) developed in the CS department of Cambridge University, together with systems such as Xen Hypervisor and EDSAC. 
-
-I have more than 20 publications, including three books published by Springer. Two of them are about the Owl system and one about enterprise architecture and analytics. Currently I'm writing another book (to be published by Wiley) that aims to give a holistic view on the autonomous driving industry, from the perspectives of technology, business, and regulations.
-I've also converted my academic work to 3 patents as first inventor.
-
-I am always glad to face new challenges. I have been practising [Kendo](https://de.wikipedia.org/wiki/Kend%C5%8D) for years. 
-I have also participated in the [STIMULUS programme](https://stimulus.maths.org/) as volunteer to assist teaching computer science to pupils in local schools.
-A recent personal achievement is finishing the full [Lake Constance](https://en.wikipedia.org/wiki/Lake_Constance) cycle route.
+<section class="hero" aria-labelledby="intro-title">
+  <div>
+    <p class="eyebrow">Research meets implementation</p>
+    <h1 id="intro-title">Jianxin Zhao</h1>
+    <p class="role">AI systems. Agent engineering.<br>Open-source computing.</p>
+    <p class="intro">I work on efficient model inference, agent systems and numerical computing. I lead the <a href="https://github.com/owlbarn/owl">Owl</a> open-source project and build systems that connect research ideas with practical applications.</p>
+    <p class="intro">PhD in Computer Science, University of Cambridge.<br>Research experience at KIT and Beijing Institute of Technology.</p>
+    <div class="links"><a class="button" href="{{ '/files/cv.pdf' | relative_url }}">Download CV <span aria-hidden="true">↗</span><span class="sr-only"> (English PDF)</span></a><a href="https://github.com/jzstark">GitHub</a><a href="mailto:{{ site.email }}">Email</a></div>
+  </div>
+  <figure class="portrait"><img src="{{ '/images/stark.jpg' | relative_url }}" alt="Jianxin Zhao" width="230" height="230" fetchpriority="high"><figcaption>Researcher, engineer<br>and open-source maintainer.</figcaption></figure>
+</section>
+<dl class="facts" aria-label="At a glance"><div><dt>25+</dt><dd>Research publications</dd></div><div><dt>2017–</dt><dd>Owl core development</dd></div><div><dt>4</dt><dd>First-inventor patents</dd></div></dl>
+<section class="section" aria-labelledby="selected-work"><div class="section-heading"><h2 id="selected-work">Selected work</h2><a href="{{ '/projects/' | relative_url }}">All projects →</a></div><div>{% for project in site.data.projects %}{% include project-row.html project=project %}{% endfor %}</div></section>
+<section class="section" aria-labelledby="books-home"><div class="section-heading"><h2 id="books-home">Books &amp; explanations</h2><a href="{{ '/books/' | relative_url }}">All books →</a></div><div class="book-grid">{% for book in site.data.books limit:2 %}<article class="book-preview">{% include book-cover.html book=book %}<div><p class="book-venue">{{ book.publisher }} · {{ book.year }}</p><h3>{{ book.title }}</h3><p>{{ book.subtitle }}</p><a class="text-link" href="{{ '/books/' | relative_url }}#{{ book.id }}">About the book →</a></div></article>{% endfor %}</div></section>
+<section class="section" aria-labelledby="research-home"><div class="section-heading"><h2 id="research-home">Selected research</h2><a href="{{ '/research/' | relative_url }}">Research &amp; papers →</a></div>{% include selected-publications.html %}</section>
+<section class="section about-short" aria-labelledby="beyond-work"><div><p class="eyebrow">Beyond the code</p><h2 id="beyond-work">Curiosity, in practice.</h2></div><div><p>I enjoy explaining systems as much as building them: through open-source documentation, books, teaching and collaboration. Away from the screen, I practise kendo, cycle and explore new places.</p><a class="text-link" href="{{ '/about/' | relative_url }}">More about me →</a></div></section>

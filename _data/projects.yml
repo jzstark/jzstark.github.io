@@ -1,0 +1,30 @@
+- id: owl
+  name: Owl
+  number: '01'
+  category: Numerical computing · Open source
+  role: Core developer since 2017; project lead since 2020
+  summary: A scientific computing and deep learning framework for OCaml. My work spans numerical operators, computation
+    graphs, memory optimisation, model interoperability and community maintenance.
+  result: 86.6% lower Mask R-CNN CPU inference memory with graph-level memory reuse, compared with the same framework
+    without graph optimisation.
+  url: /projects/owl/
+- id: overdrive
+  name: OverDrive
+  number: '02'
+  category: VLM/VLA inference · Research
+  role: Project lead at KIT · 2023–2026
+  summary: A research project on timely inference for driving models. I designed a common model-adaptation and replay-evaluation
+    framework and used controlled experiments to investigate performance.
+  result: 17.9% lower median per-frame replay service time in an offline development benchmark, with output-consistency
+    checks.
+  url: /projects/overdrive/
+- id: knowledgebase
+  name: KnowledgeBase
+  number: '03'
+  category: Agent engineering · User-facing system
+  role: Independent project · Law-firm pilot · 2026–present
+  summary: A legal knowledge system combining hybrid retrieval, entity knowledge and MCP tools. Designed, developed
+    and deployed on AWS, with feedback from a pilot at a leading Chinese law firm.
+  result: Incremental knowledge maintenance, source-checked quotations and asynchronous processing; server costs
+    reduced by approximately 67%.
+  url: /projects/knowledgebase/

@@ -1,3 +1,5 @@
 .bundle/
 vendor/
 .jekyll-cache/
+__pycache__/
+*.pyc

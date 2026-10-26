@@ -1,0 +1,65 @@
+---
+layout: page
+title: Codex Activity
+permalink: /activity/
+description: My daily Codex token activity, automatically updated from official account usage data.
+---
+<link rel="stylesheet" href="{{ '/assets/activity.css' | relative_url }}">
+
+<section class="activity" data-usage-url="{{ '/assets/data/codex-usage.json' | relative_url }}" aria-label="Codex usage">
+  <p class="activity-intro">A daily record of working with Codex. Each square represents one day;
+    deeper greens mean more tokens used.</p>
+
+  <p id="activity-status" class="activity-status" role="status">Loading official usage data…</p>
+
+  <dl class="activity-stats">
+    <div><dt>Tokens · last 30 days</dt><dd id="activity-total">—</dd><small id="activity-coverage">Completed calendar days</small></div>
+    <div><dt>Daily average</dt><dd id="activity-average">—</dd><small id="activity-average-note">Across reported days</small></div>
+    <div><dt>Active days · last 30</dt><dd id="activity-active">—</dd><small>Days with reported usage &gt; 0</small></div>
+  </dl>
+
+  <div class="activity-chart-header">
+    <h2>Daily activity</h2>
+    <span id="activity-range">Past 365 days</span>
+  </div>
+  <div class="activity-scroll" tabindex="0" role="region" aria-label="Daily activity calendar; scroll horizontally on small screens">
+    <div class="activity-calendar">
+      <div id="activity-months" class="activity-months" aria-hidden="true"></div>
+      <div class="activity-weekdays" aria-hidden="true"><span>Mon</span><span>Wed</span><span>Fri</span></div>
+      <div id="activity-grid" class="activity-grid" role="group" aria-label="Daily token counts. Use arrow keys to explore dates."></div>
+    </div>
+  </div>
+  <div class="activity-chart-footer">
+    <output id="activity-detail" aria-live="polite">Hover, tap, or focus a square to see its daily usage.</output>
+    <div class="activity-legend" aria-label="Token usage intensity">
+      <span>Less</span>
+      <i class="activity-cell level-0" title="0 tokens"></i>
+      <i class="activity-cell level-1" title="Under 1 million tokens"></i>
+      <i class="activity-cell level-2" title="1–10 million tokens"></i>
+      <i class="activity-cell level-3" title="10–100 million tokens"></i>
+      <i class="activity-cell level-4" title="100 million tokens or more"></i>
+      <span>More</span>
+      <i class="activity-cell level-unknown"></i><span>Not reported</span>
+    </div>
+  </div>
+
+  <div class="activity-notes">
+    <p>Source: <a href="https://learn.chatgpt.com/docs/app-server#7-token-usage-chatgpt">official Codex account usage</a>.
+      <span id="activity-updated">Awaiting the first sync.</span>
+      <a href="{{ '/assets/data/codex-usage.json' | relative_url }}">Daily data ↗</a></p>
+    <details>
+      <summary>How to read these numbers</summary>
+      <p>The calendar shows the past 365 days. The statistics above cover the 30 completed
+        calendar days before today (using UTC to determine today). Daily dates and token counts
+        are kept exactly as returned by Codex; today may not be reported yet.</p>
+      <p>Unreported dates have a striped square, distinct from a reported zero. Totals and active
+        days include only reported dates, and the daily average is divided by the number of
+        reported dates. Older daily records are retained between syncs.</p>
+      <p>Green levels are fixed: below 1 million, 1–10 million, 10–100 million, and 100 million
+        or more tokens. These are usage counts, not working hours, spending, or a measure of
+        productivity. The source does not provide an input/output breakdown here.</p>
+    </details>
+  </div>
+  <noscript><p>Enable JavaScript to view the calendar, or <a href="{{ '/assets/data/codex-usage.json' | relative_url }}">read the daily data</a>.</p></noscript>
+</section>
+<script type="module" src="{{ '/assets/activity.mjs' | relative_url }}"></script>

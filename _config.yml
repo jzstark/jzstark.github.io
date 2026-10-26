@@ -24,6 +24,8 @@ navigation:
     url: /about/
   - title: Codex Activity
     url: /activity/
+  - title: Credentials
+    url: /cert/
 exclude:
   - scripts/
   - tests/

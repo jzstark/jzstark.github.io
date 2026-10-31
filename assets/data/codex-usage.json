@@ -5,12 +5,12 @@
     "name": "Codex account usage",
     "url": "https://learn.chatgpt.com/docs/app-server#7-token-usage-chatgpt"
   },
-  "updated_at": "2026-10-30T08:05:39Z",
+  "updated_at": "2026-10-31T08:12:39Z",
   "summary": {
-    "lifetimeTokens": 6215902616,
-    "peakDailyTokens": 253813645,
-    "currentStreakDays": 19,
-    "longestStreakDays": 19
+    "lifetimeTokens": 5933402435,
+    "peakDailyTokens": 230002159,
+    "currentStreakDays": 20,
+    "longestStreakDays": 20
   },
   "days": [
     {
@@ -423,7 +423,7 @@
     },
     {
       "date": "2026-09-17",
-      "tokens": 62962335
+      "tokens": 62929245
     },
     {
       "date": "2026-09-18",
@@ -431,27 +431,27 @@
     },
     {
       "date": "2026-09-19",
-      "tokens": 60157773
+      "tokens": 59585613
     },
     {
       "date": "2026-09-21",
-      "tokens": 93527525
+      "tokens": 93303095
     },
     {
       "date": "2026-09-22",
-      "tokens": 168976981
+      "tokens": 152666724
     },
     {
       "date": "2026-09-23",
-      "tokens": 80197171
+      "tokens": 73963967
     },
     {
       "date": "2026-09-24",
-      "tokens": 208505802
+      "tokens": 193259821
     },
     {
       "date": "2026-09-25",
-      "tokens": 253813645
+      "tokens": 230002159
     },
     {
       "date": "2026-09-26",
@@ -459,39 +459,39 @@
     },
     {
       "date": "2026-09-28",
-      "tokens": 61173529
+      "tokens": 57759537
     },
     {
       "date": "2026-09-29",
-      "tokens": 32415248
+      "tokens": 30785324
     },
     {
       "date": "2026-09-30",
-      "tokens": 47708072
+      "tokens": 45922727
     },
     {
       "date": "2026-10-01",
-      "tokens": 13482091
+      "tokens": 13362475
     },
     {
       "date": "2026-10-02",
-      "tokens": 50167368
+      "tokens": 48575163
     },
     {
       "date": "2026-10-03",
-      "tokens": 46558905
+      "tokens": 44862850
     },
     {
       "date": "2026-10-04",
-      "tokens": 64205331
+      "tokens": 61992095
     },
     {
       "date": "2026-10-05",
-      "tokens": 117389430
+      "tokens": 113868817
     },
     {
       "date": "2026-10-06",
-      "tokens": 108885271
+      "tokens": 107894579
     },
     {
       "date": "2026-10-07",
@@ -499,83 +499,87 @@
     },
     {
       "date": "2026-10-09",
-      "tokens": 39632171
+      "tokens": 37161010
     },
     {
       "date": "2026-10-11",
-      "tokens": 52946790
+      "tokens": 47341826
     },
     {
       "date": "2026-10-12",
-      "tokens": 83231450
+      "tokens": 71957614
     },
     {
       "date": "2026-10-13",
-      "tokens": 36167931
+      "tokens": 32441904
     },
     {
       "date": "2026-10-14",
-      "tokens": 83600213
+      "tokens": 72612419
     },
     {
       "date": "2026-10-15",
-      "tokens": 115175874
+      "tokens": 96096849
     },
     {
       "date": "2026-10-16",
-      "tokens": 106991269
+      "tokens": 90979419
     },
     {
       "date": "2026-10-17",
-      "tokens": 87845331
+      "tokens": 76490366
     },
     {
       "date": "2026-10-18",
-      "tokens": 42927828
+      "tokens": 35263433
     },
     {
       "date": "2026-10-19",
-      "tokens": 101025243
+      "tokens": 88767091
     },
     {
       "date": "2026-10-20",
-      "tokens": 133948037
+      "tokens": 122238730
     },
     {
       "date": "2026-10-21",
-      "tokens": 108807676
+      "tokens": 94984082
     },
     {
       "date": "2026-10-22",
-      "tokens": 150321041
+      "tokens": 136222482
     },
     {
       "date": "2026-10-23",
-      "tokens": 114441525
+      "tokens": 93086105
     },
     {
       "date": "2026-10-24",
-      "tokens": 94473004
+      "tokens": 81704137
     },
     {
       "date": "2026-10-25",
-      "tokens": 51125977
+      "tokens": 35127798
     },
     {
       "date": "2026-10-26",
-      "tokens": 109896538
+      "tokens": 92023611
     },
     {
       "date": "2026-10-27",
-      "tokens": 177812330
+      "tokens": 158600753
     },
     {
       "date": "2026-10-28",
-      "tokens": 50472333
+      "tokens": 42538384
     },
     {
       "date": "2026-10-29",
-      "tokens": 58416047
+      "tokens": 39474467
+    },
+    {
+      "date": "2026-10-30",
+      "tokens": 51038233
     }
   ]
 }

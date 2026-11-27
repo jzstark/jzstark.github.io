@@ -5,12 +5,12 @@
     "name": "Codex account usage",
     "url": "https://learn.chatgpt.com/docs/app-server#7-token-usage-chatgpt"
   },
-  "updated_at": "2026-11-26T08:05:21Z",
+  "updated_at": "2026-11-27T08:14:21Z",
   "summary": {
-    "lifetimeTokens": 8869469634,
+    "lifetimeTokens": 9076883966,
     "peakDailyTokens": 339455959,
-    "currentStreakDays": 46,
-    "longestStreakDays": 46
+    "currentStreakDays": 47,
+    "longestStreakDays": 47
   },
   "days": [
     {
@@ -683,7 +683,11 @@
     },
     {
       "date": "2026-11-25",
-      "tokens": 44372084
+      "tokens": 131559595
+    },
+    {
+      "date": "2026-11-26",
+      "tokens": 120226821
     }
   ]
 }
